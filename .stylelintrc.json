@@ -1,0 +1,56 @@
+{
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-declaration-block-no-ignored-properties"
+  ],
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-idiomatic-order",
+    "stylelint-config-prettier-scss"
+  ],
+  "rules": {
+    "font-family-name-quotes": null
+  },
+  "overrides": [
+    {
+      "customSyntax": "postcss-scss",
+      "files": [
+        "**/*.scss"
+      ]
+    },
+    {
+      "customSyntax": "@stylelint/postcss-css-in-js",
+      "files": [
+        "**/*.jsx",
+        "**/*.tsx"
+      ],
+      "rules": {
+        "function-name-case": [
+          "lower",
+          {
+            "ignoreFunctions": [
+              "/.*/"
+            ]
+          }
+        ],
+        "selector-class-pattern": [
+          "^([a-z][a-z0-9]*)(-[a-z0-9]+)*((__([a-z][a-z0-9]*)(-[a-z0-9]+)*)?(--([a-z][a-z0-9]*)(-[a-z0-9]+)*)?)$"
+        ],
+        "value-keyword-case": [
+          "lower",
+          {
+            "ignoreFunctions": [
+              "/.*/"
+            ],
+            "ignoreKeywords": [
+              "/.*/"
+            ],
+            "ignoreProperties": [
+              "/.*/"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -57,7 +57,7 @@
             "pathGroups": [
               {
                 "group": "type",
-                "pattern": "@app/**",
+                "pattern": "./**/**\\.{css,scss}",
                 "position": "after"
               }
             ],

@@ -1,3 +1,8 @@
+/* If you don't plan to use TailwindCSS in your project, you can remove these imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .app {
   text-align: center;
 }

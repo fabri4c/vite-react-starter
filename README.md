@@ -8,6 +8,7 @@
 ![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?logo=prettier&logoColor=white&style=for-the-badge)
 ![Stylelint](https://img.shields.io/badge/-Stylelint-263238?logo=stylelint&logoColor=white&style=for-the-badge)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=for-the-badge)
 ![Testing Library](https://img.shields.io/badge/-Testing%20Library-E33332?logo=testing%20library&logoColor=white&style=for-the-badge)
 
@@ -17,7 +18,9 @@
 
 ## Description
 
-An starter template for Vite React projects including a bunch of useful tools and libraries. For styling you can use CSS, SASS, or Styled Components out of the box. Testing with Jest and React Testing Library is already configured.
+An starter template for Vite React projects including a bunch of useful tools and libraries enforcing best practices and autofix on save.
+
+For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose your favorite CSS framework and get started.
 
 ## Live Demo
 
@@ -31,9 +34,10 @@ An starter template for Vite React projects including a bunch of useful tools an
 - [ESLint](https://eslint.org/) Find and fix problems in your JavaScript code.
 - [Prettier](https://prettier.io/) Opinionated code formatter.
 - [Stylelint](https://stylelint.io/) A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-- [Sass](https://sass-lang.com/) Syntactically Awesome Style Sheets
 - [@emotion/react](https://eslint.org/) Emotion is a library designed for writing css styles with JavaScript.
 - [@emotion/styled](https://eslint.org/) Styled is a way to create React components that have styles attached to them.
+- [Sass](https://sass-lang.com/) Syntactically Awesome Style Sheets.
+- [TailwindCSS](https://tailwindcss.com/) Rapidly build modern websites without ever leaving your HTML.
 - [Jest](https://jestjs.io/) Delightful JavaScript Testing.
 - [Testing Library](https://testing-library.com/) The React Testing Library is a very light-weight solution for testing React components
 
@@ -54,8 +58,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- `node` : `^12 || >=14`
-- `npm` `pnpm` or `yarn`
+- Recommended `node` : `>=16.13.0`
+- `npm` or `pnpm` or `yarn`
+
+I advice to use `pnpm` for managing dependencies. It's faster and more reliable than `npm`. To install [pnpm](https://pnpm.io/) just run:
+- `corepack enable`
+- `corepack prepare pnpm@6.22.2 --activate`
 
 ### Setup
 

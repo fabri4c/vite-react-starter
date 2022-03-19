@@ -62,8 +62,11 @@ To get a local copy up and running follow these simple example steps.
 - `npm` or `pnpm` or `yarn`
 
 I advice to use `pnpm` for managing dependencies. It's faster and more reliable than `npm`. To install [pnpm](https://pnpm.io/) just run:
+
 - `corepack enable`
 - `corepack prepare pnpm@6.22.2 --activate`
+
+After that the syntax is the same as `npm` e.g. `npm install` becomes `pnpm install`.
 
 ### Setup
 

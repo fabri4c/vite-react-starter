@@ -9,28 +9,27 @@
     "stylelint-config-prettier-scss"
   ],
   "rules": {
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "layer"]
+      }
+    ],
     "font-family-name-quotes": null
   },
   "overrides": [
     {
       "customSyntax": "postcss-scss",
-      "files": [
-        "**/*.scss"
-      ]
+      "files": ["**/*.scss"]
     },
     {
       "customSyntax": "@stylelint/postcss-css-in-js",
-      "files": [
-        "**/*.jsx",
-        "**/*.tsx"
-      ],
+      "files": ["**/*.jsx", "**/*.tsx"],
       "rules": {
         "function-name-case": [
           "lower",
           {
-            "ignoreFunctions": [
-              "/.*/"
-            ]
+            "ignoreFunctions": ["/.*/"]
           }
         ],
         "selector-class-pattern": [
@@ -39,15 +38,9 @@
         "value-keyword-case": [
           "lower",
           {
-            "ignoreFunctions": [
-              "/.*/"
-            ],
-            "ignoreKeywords": [
-              "/.*/"
-            ],
-            "ignoreProperties": [
-              "/.*/"
-            ]
+            "ignoreFunctions": ["/.*/"],
+            "ignoreKeywords": ["/.*/"],
+            "ignoreProperties": ["/.*/"]
           }
         ]
       }

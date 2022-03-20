@@ -1,8 +1,5 @@
 {
-  "plugins": [
-    "stylelint-scss",
-    "stylelint-declaration-block-no-ignored-properties"
-  ],
+  "plugins": ["stylelint-scss"],
   "extends": [
     "stylelint-config-standard-scss",
     "stylelint-config-idiomatic-order",

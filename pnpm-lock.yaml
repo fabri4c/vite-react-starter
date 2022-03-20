@@ -6,6 +6,7 @@ specifiers:
   '@emotion/babel-preset-css-prop': ^11.2.0
   '@emotion/react': ^11.8.2
   '@emotion/styled': ^11.8.1
+  '@namics/stylelint-bem': ^7.0.0
   '@stylelint/postcss-css-in-js': ^0.37.2
   '@testing-library/dom': ^8.11.3
   '@testing-library/jest-dom': ^5.16.2
@@ -63,6 +64,7 @@ devDependencies:
   '@emotion/babel-plugin': 11.7.2_@babel+core@7.17.8
   '@emotion/babel-preset-css-prop': 11.2.0_@babel+core@7.17.8
   '@emotion/styled': 11.8.1_58c6d579b5d4620c3e3267b14eb7ebcf
+  '@namics/stylelint-bem': 7.0.0_stylelint@14.6.0
   '@stylelint/postcss-css-in-js': 0.37.2_3c2bfa735c5d8a8695ad877879a67022
   '@testing-library/dom': 8.11.3
   '@testing-library/jest-dom': 5.16.2
@@ -886,6 +888,17 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
+  /@namics/stylelint-bem/7.0.0_stylelint@14.6.0:
+    resolution: {integrity: sha512-XimlWZbCotBQbwB5YwcB5d7HNhoY4YBWyfoMbDcEuUWOCEmXDbfwsSDJR+cytm+/Z+lDVRnHd+iM01AaF0+R4A==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      stylelint: '>=7.0.0 <15.0.0'
+    dependencies:
+      css-selector-classes: 0.1.2
+      postcss-resolve-nested-selector: 0.1.1
+      stylelint: 14.6.0
+    dev: true
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1656,6 +1669,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /array-uniq/1.0.3:
+    resolution: {integrity: sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /array.prototype.flat/1.2.5:
     resolution: {integrity: sha512-KaYU+S+ndVqyUnignHftkwc58o3uVU1jzczILJ1tN2YaIZpFIKBiP/x/j97E5MVPsaCloPbqWLB/8qCTVvT2qg==}
     engines: {node: '>= 0.4'}
@@ -2081,6 +2099,19 @@ packages:
   /css-functions-list/3.0.1:
     resolution: {integrity: sha512-PriDuifDt4u4rkDgnqRCLnjfMatufLmWNfQnGCq34xZwpY3oabwhB9SqRBmuvWUgndbemCFlKqg+nO7C2q0SBw==}
     engines: {node: '>=12.22'}
+    dev: true
+
+  /css-selector-classes/0.1.2:
+    resolution: {integrity: sha1-JAPY5WAQHIKcXx35MIAyp6Qfw3Y=}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      array-uniq: 1.0.3
+      css-selector-parser: 1.0.4
+    dev: true
+
+  /css-selector-parser/1.0.4:
+    resolution: {integrity: sha1-Zd/mFL1f0XW2Sgo/GTuHD8V5B3M=}
+    engines: {'0': node >= 0.4.0}
     dev: true
 
   /css.escape/1.5.1:

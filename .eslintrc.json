@@ -71,6 +71,10 @@
     }
   ],
   "rules": {
+     "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
     "no-unused-vars": "warn",
     "react/function-component-definition": "off",
     "react/react-in-jsx-scope": "off",

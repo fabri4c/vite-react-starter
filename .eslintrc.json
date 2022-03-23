@@ -37,10 +37,6 @@
         "import/order": [
           "error",
           {
-            "alphabetize": {
-              "caseInsensitive": true,
-              "order": "asc"
-            },
             "groups": [
               "builtin",
               "external",
@@ -53,17 +49,21 @@
               "object",
               "type"
             ],
-            "newlines-between": "always",
             "pathGroups": [
               {
+                "pattern": "./**/**\\.css",
                 "group": "type",
-                "pattern": "./**/**\\.{css,scss}",
                 "position": "after"
               }
             ],
             "pathGroupsExcludedImportTypes": [
               "builtin"
             ],
+            "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": true
+            },
+            "newlines-between": "always",
             "warnOnUnassignedImports": true
           }
         ]
@@ -71,7 +71,7 @@
     }
   ],
   "rules": {
-     "jsx-quotes": [
+    "jsx-quotes": [
       "error",
       "prefer-double"
     ],

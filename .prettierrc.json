@@ -2,7 +2,7 @@
   "arrowParens": "avoid",
   "bracketSameLine": false,
   "bracketSpacing": true,
-  "jsxSingleQuote": true,
+  "jsxSingleQuote": false,
   "plugins": ["./node_modules/prettier-plugin-tailwindcss"],
   "printWidth": 80,
   "quoteProps": "as-needed",

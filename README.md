@@ -34,8 +34,8 @@ For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose yo
 - [ESLint](https://eslint.org/) Find and fix problems in your JavaScript code.
 - [Prettier](https://prettier.io/) Opinionated code formatter.
 - [Stylelint](https://stylelint.io/) A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-- [@emotion/react](https://eslint.org/) Emotion is a library designed for writing css styles with JavaScript.
-- [@emotion/styled](https://eslint.org/) Styled is a way to create React components that have styles attached to them.
+- [@emotion/react](https://emotion.sh/) Emotion is a library designed for writing css styles with JavaScript.
+- [@emotion/styled](https://emotion.sh/) Styled is a way to create React components that have styles attached to them.
 - [Sass](https://sass-lang.com/) Syntactically Awesome Style Sheets.
 - [TailwindCSS](https://tailwindcss.com/) Rapidly build modern websites without ever leaving your HTML.
 - [Jest](https://jestjs.io/) Delightful JavaScript Testing.

@@ -6,7 +6,7 @@
   "plugins": ["./node_modules/prettier-plugin-tailwindcss"],
   "printWidth": 80,
   "quoteProps": "as-needed",
-  "semi": false,
+  "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none"

@@ -18,7 +18,7 @@
 
 ## Description
 
-An starter template for Vite React projects including a bunch of useful tools and libraries enforcing best practices and autofix on save.
+An starter template for Vite React 18 projects including a bunch of useful tools and libraries enforcing best practices and autofix on save.
 
 For styling it comes with SASS, Emotion, and TailwindCSS ready to use. Choose your favorite CSS framework and get started. It also includes the @namics/stylelint-bem plugin for BEM style validation.
 

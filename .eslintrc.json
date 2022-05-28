@@ -71,6 +71,8 @@
     }
   ],
   "rules": {
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-noninteractive-element-interactions": "warn",
     "jsx-quotes": [
       "error",
       "prefer-double"
@@ -78,6 +80,7 @@
     "no-unused-vars": "warn",
     "react/function-component-definition": "off",
     "react/react-in-jsx-scope": "off",
+    "react/prop-types": "warn",
     "semi": "error"
   }
 }

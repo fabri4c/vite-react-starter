@@ -24,7 +24,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -36,7 +37,6 @@
     "@babel/core": "^7.18.13",
     "@emotion/babel-plugin": "^11.10.2",
     "@emotion/babel-preset-css-prop": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
     "@namics/stylelint-bem": "^7.0.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.17.1",

@@ -98,9 +98,9 @@ After creating the production build, run:
 
 | &nbsp;       | &nbsp;                                               |
 | ------------ | ---------------------------------------------------- |
-| **GitHub**   | [@fabgrel10](https://github.com/fabgrel10)           |
-| **Twitter**  | [@fabgrel10](https://twitter.com/fabgrel10)          |
-| **LinkedIn** | [@fabgrel10](https://www.linkedin.com/in/fabgrel10/) |
+| **GitHub**   | [@fabri4c](https://github.com/fabri4c)           |
+| **Twitter**  | [@fabri_4c](https://twitter.com/fabri_4c)          |
+| **LinkedIn** | [@fabri4c](https://www.linkedin.com/in/fabri4c/) |
 
 ## Show your support
 
